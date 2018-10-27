@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { Component } from 'react'
 import {View,TouchableOpacity,Text,Image,Alert,ImageBackground,StyleSheet} from 'react-native'
 
-export default class Layar extends React.Component{
+class Layar extends Component{
     state={
         user:null,
         komputer:null,
@@ -191,3 +191,5 @@ const styles=StyleSheet.create({
         justifyContent:'center'
     }
 })
+
+export default Layar;
