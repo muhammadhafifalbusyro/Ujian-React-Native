@@ -1,7 +1,7 @@
-import React from 'react'
-import {View,Text,ImageBackground,Image,TouchableOpacity,StyleSheet} from 'react-native'
+import React, { Component } from 'react';
+import {View,Text,ImageBackground,Image,TouchableOpacity,StyleSheet} from 'react-native';
 
-class Home extends React.Component{
+class Home extends Component{
     state={
         menu:true,
         list:null
@@ -131,4 +131,5 @@ const styles=StyleSheet.create({
     }
     
 })
-export default Home
+
+export default Home;
